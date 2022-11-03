@@ -25,3 +25,13 @@ usage
 ```shell
 ./telegram-bot -token=12345678901:XXXXXWM9rDuKEiTjLahVcuYVK5lGKLLV-00 -socks5=socks5://localhost:1090
 ```
+
+token
+```text
+token 通过向 telegram @BotFather 注册机器人后生成.
+```
+
+socks5
+```text
+无法访问 telegram 的网络需要使用socks5代理进行 telegram 客户端连接.
+```

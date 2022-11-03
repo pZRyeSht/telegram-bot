@@ -50,6 +50,7 @@ func main() {
 	bot.Debug = true
 	ctx := context.Background()
 	ctx, cancel := context.WithCancel(ctx)
+	defer cancel()
 	log.Printf("Authorized on account %s", bot.Self.UserName)
 	u := botapi.NewUpdate(0)
 	u.Timeout = 60
@@ -58,5 +59,4 @@ func main() {
 	log.Println("Start listening for updates. Press enter to stop")
 	// Wait for a newline symbol, then cancel handling updates
 	_, _ = bufio.NewReader(os.Stdin).ReadBytes('\n')
-	cancel()
 }

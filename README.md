@@ -35,3 +35,6 @@ socks5
 ```text
 无法访问 telegram 的网络需要使用socks5代理进行 telegram 客户端连接.
 ```
+
+## Security
+[![Security Status](https://www.murphysec.com/platform3/v3/badge/1611402604379156480.svg)](https://www.murphysec.com/accept?code=afb0467c17ac17c0f1c40c89197eb6b4&type=1&from=2&t=2)
